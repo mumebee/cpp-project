@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My C++ Website</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TREVIA</div>
+        <div class="nav-buttons">
+            <button>ABOUT US</button>
+            <button>DESTINATIONS</button>
+            <button>ACTIVITIES</button>
+        <div class="search">
+            <input type="text" class="search__input" placeholder="Search"/>
+            <button class="search__button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>
+            </button>
+        </div>
+    </div>
+    </header>
+    <section class="photo1"></section>
+    <section class="photo2"></section>
+    <section class="photo3"></section>
+    <section class="photo4">
+        <div class="container">
+            <button class="arrow left">&#10094;</button>
+            <div class="carousel">  
+                <div class="slides">
+                    <div class="box"><img src="/images/bukhara.jpg" alt="Image 1">
+                        <button class="more">See more</button>
+                        <div class="overlay">Traveling is an experience that broadens the mind by exposing you to new cultures, people, and places through various forms of travel, from flights to train rides to simple walks. </div>
+                    </div>
+                    <div class="box"><img src="/images/samarkand2.jpg" alt="Image 2">
+                        <button class="more">See more</button>
+                        <div class="overlay">Traveling is an experience that broadens the mind by exposing you to new cultures, people, and places through various forms of travel, from flights to train rides to simple walks. </div>
+                    </div>
+                    <div class="box"><img src="/images/bukhara.jpg" alt="Image 3">
+                        <button class="more">See more</button>                        
+                        <div class="overlay">Traveling is an experience that broadens the mind by exposing you to new cultures, people, and places through various forms of travel, from flights to train rides to simple walks. </div>
+
+                    </div>
+                    <div class="box"><img src="/images/bukhara.jpg" alt="Image 4">
+                        <button class="more">See more</button>
+                        <div class="overlay">Traveling is an experience that broadens the mind by exposing you to new cultures, people, and places through various forms of travel, from flights to train rides to simple walks. </div>
+                    </div>
+                </div>
+            </div>
+            <button class="arrow right">&#10095;</button>
+        </div>
+    </section>
+    <section class="photo5" id="trip-form">
+        <div class="columns">
+            <div class="cap left"></div>
+            <div class="column left"></div>
+            <div class="form-arc">
+                <h1>Take us to your trip</h1>
+                <form>
+                    <label for="name">name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">email</label>
+                    <input type="text" id="email">
+                </form>
+            </div>
+            <div class="column right"></div>
+            <div class="cap right"></div>
+        </div>
+    </section>
+<script src="/static/script.js"></script>
+</body>
+</html>
