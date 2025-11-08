@@ -225,7 +225,7 @@ header{
 }
 .photo5{
   height: 100vh;
-  background: linear-gradient(#eba051, #ffffff);
+  background: linear-gradient(to bottom, #484C70, #eba051);
   justify-content: center;
   align-items: flex-end;
   text-align: center;
