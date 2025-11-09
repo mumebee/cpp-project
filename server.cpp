@@ -20,6 +20,20 @@ int main() {
     svr.Get("/destinations", [](auto&, auto& res) {
         res.set_content(read_file("pages/destinations.html"), "text/html");
     });
+
+    svr.Get("/tashkent", [](auto&, auto& res) {
+        res.set_content(read_file("pages/tashkent.html"), "text/html");
+    });
+    svr.Get("/samarkand", [](auto&, auto& res) {
+        res.set_content(read_file("pages/samarkand.html"), "text/html");
+    });
+    svr.Get("/bukhara", [](auto&, auto& res) {
+        res.set_content(read_file("pages/bukhara.html"), "text/html");
+    });
+    svr.Get("/khiva", [](auto&, auto& res) {
+        res.set_content(read_file("pages/khiva.html"), "text/html");
+    });
+
     svr.Get("/styles/(.*)", [](auto& req, auto& res) {
         res.set_content(read_file("styles/" + req.matches[1].str()), "text/css");
     });

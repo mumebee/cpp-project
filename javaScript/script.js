@@ -4,6 +4,23 @@ const boxes = Array.from(document.querySelectorAll('.box'));
 const next = document.querySelector('.arrow.right');
 const prev = document.querySelector('.arrow.left');
 const buttons = document.querySelectorAll('.more');
+const drop = document.getElementById('Drop');
+const dropdown = drop.parentElement;
+const content = dropdown.querySelector('.dropdown-content');
+
+drop.addEventListener('click', (e) => {
+  content.classList.toggle('show');
+  e.stopPropagation();
+});
+
+// Закрываем dropdown при клике вне него
+window.addEventListener('click', (e) => {
+  if(!dropdown.contains(e.target)){
+  content.classList.remove('show');
+  }
+});
+
+
 
 let index = 0;
 
