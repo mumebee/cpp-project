@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My C++ Website</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <meta charset="utf-8">
+    <title>Trevia</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <header>
@@ -10,7 +11,15 @@
         <div class="nav-buttons">
             <button onclick="window.location.href='/'">MAIN</button>
             <button onclick="window.location.href='/about'">ABOUT US</button>
-            <button onclick="window.location.href='/destinations'">DESTINATIONS</button>
+            <div class="dropdown">
+                <button class="drop" id="Drop">DESTINATIONS</button>
+                <div class="dropdown-content" id="dropContent">
+                    <button onclick="window.location.href='/tashkent'">Tashkent</button>
+                    <button onclick="window.location.href='/samarkand'">Samarkand</button>
+                    <button onclick="window.location.href='/bukhara'">Bukhara</button>
+                    <button onclick="window.location.href='/khiva'">Khiva</button>
+                </div>
+            </div>
         <div class="search">
             <input type="text" class="search__input" placeholder="Search"/>
             <button class="search__button">
@@ -69,6 +78,6 @@
             <div class="cap right"></div>
         </div>
     </section>
-<script src="/static/script.js"></script>
+<script src="/javaScript/script.js"></script>
 </body>
 </html>
