@@ -12,7 +12,15 @@
         <div class="nav-buttons">
             <button onclick="window.location.href='/'">MAIN</button>
             <button onclick="window.location.href='/about'">ABOUT US</button>
-            <button onclick="window.location.href='/destinations'">DESTINATIONS</button>
+            <div class="dropdown">
+                <button class="drop" id="Drop">DESTINATIONS</button>
+                <div class="dropdown-content" id="dropContent">
+                    <button onclick="window.location.href='/tashkent'">Tashkent</button>
+                    <button onclick="window.location.href='/samarkand'">Samarkand</button>
+                    <button onclick="window.location.href='/bukhara'">Bukhara</button>
+                    <button onclick="window.location.href='/khiva'">Khiva</button>
+                </div>
+            </div>
         <div class="search">
             <input type="text" class="search__input" placeholder="Search"/>
             <button class="search__button">
@@ -23,6 +31,6 @@
         </div>
     </div>
     </header>
-    
+    <script src="/javaScript/script.js"></script>
 </body>
 </html>

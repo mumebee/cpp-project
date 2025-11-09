@@ -17,9 +17,6 @@ int main() {
     svr.Get("/about", [](auto&, auto& res) {
         res.set_content(read_file("pages/about.html"), "text/html");
     });
-    svr.Get("/destinations", [](auto&, auto& res) {
-        res.set_content(read_file("pages/destinations.html"), "text/html");
-    });
 
     svr.Get("/tashkent", [](auto&, auto& res) {
         res.set_content(read_file("pages/tashkent.html"), "text/html");
