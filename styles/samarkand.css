@@ -1,0 +1,332 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* web repeated stuffs */
+:root {
+    --color-white: #FFFFFF;
+    --color-blue: #526486;
+    --color-violet: #453E5D;
+    --color-black: #000000;
+    --color-orange: #EBA051;
+
+}
+
+body {
+    min-height: 4000px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* header part */
+header {
+    height: 150px;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 60px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.logo {
+    height: 75px;
+    width: 356px;
+    background-color: violet;
+}
+
+.services ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-size: 40px;
+}
+
+.services img {
+    height: 38px;
+    filter: invert(100%);
+}
+
+/* main parts */
+main {
+    flex: 1;
+    z-index: 1;
+}
+
+.main_one img {
+    width: 100%;
+    height: 1000px;
+    object-fit: fill;
+    /* ou 'contain' si tu veux voir toute l’image même si ça laisse des bandes */
+    /* display: block; */
+}
+
+.main_two {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    padding-top: 40px;
+}
+
+.main_two_span {
+
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.activity_block {
+    width: 1088px;
+    height: 760px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.activity {
+    height: 360px;
+    width: 340px;
+    position: relative;
+    /* Important pour positionner l'info par-dessus */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.activity img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Changé de 'fill' à 'cover' pour mieux remplir */
+    position: absolute;
+    /* L'image prend tout l'espace */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.activity_info {
+    height: 146px;
+    width: 100%;
+    position: absolute;
+    /* Position absolue pour être par-dessus l'image */
+    bottom: 0;
+    /* Collé en bas */
+    left: 0;
+    z-index: 2;
+    /* Au-dessus de l'image */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    /* Ajoute un peu d'espace intérieur */
+    background-color: rgba(225, 225, 225, 0.25);
+    backdrop-filter: blur(5px);
+    /* Optionnel : effet de flou pour mieux voir le texte */
+    border-radius: 0px 0px 10px 10px;
+}
+
+.activity_info span {
+    color: var(--color-black);
+    font-size: 16px;
+    /* Ajusté pour tenir dans le bloc */
+    font-weight: 600;
+}
+
+.main_three {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 67px;
+    gap: 63px;
+    background-color: var(--color-violet);
+}
+
+.main_three_span {
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.hotel {
+    height: 642px;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.hotel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hotel span {
+    position: relative;
+    color: var(--color-white);
+    font-size: 40px;
+    font-weight: 400;
+    z-index: 2;
+    /* background-color: rgba(235, 160, 81, 0.7); */
+}
+
+.main_three_block {
+    height: 642px;
+    width: 1000px;
+}
+
+.main_three_block button {
+    border-radius: 45px;
+    border: solid var(--color-white) 1px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.main_three_block button img {
+    height: 80px;
+    width: 80px;
+    z-index: 2;
+    filter: invert(100%);
+}
+
+.main_three_left {
+    z-index: 2;
+    position: relative;
+    right: 300px;
+    bottom: 350px;
+}
+
+.main_three_right {
+    z-index: 2;
+    position: relative;
+    left: 1220px;
+    bottom: 430px;
+}
+
+.main_four {
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.main_four span {
+    font-family: "Kaushan Script", cursive;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.main_four button {
+    height: 89px;
+    width: 377px;
+    font-size: 40px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    border: var(--color-white) solid 1px;
+    border-radius: 8px;
+
+}
+
+
+.main_four div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main_four_left {
+    position: absolute;
+    height: 742px;
+    width: 293px;
+    left: 160px;    
+    bottom: 235px;
+}
+
+.main_four_right {
+    position: absolute;
+    height: 742px;
+    width: 293px;
+    right: 160px;
+    bottom: 235px;
+}
+
+
+/* footer part */
+footer {
+    height: 150px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 36px 55px;
+    background-color: var(--color-blue);
+}
+
+.contact {
+    display: flex;
+    gap: 30px;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact_number {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer_text {
+    color: var(--color-white);
+}
+
+.footer_number {
+    color: #6193F3;
+}
+
+.contact_icons {
+    width: 128px;
+    display: flex;
+    gap: 16px;
+}
+
+.contact_icons img {
+    height: 30px;
+    width: 32px;
+}
