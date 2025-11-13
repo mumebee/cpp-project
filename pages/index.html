@@ -66,12 +66,17 @@
             <div class="column left"></div>
             <div class="form-arc">
                 <h1>Take us to your trip</h1>
-                <form>
-                    <label for="name">name</label>
-                    <input type="text" id="name">
+                <form id="signupForm">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
 
-                    <label for="email">email</label>
-                    <input type="text" id="email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required>
+
+                    <button type="submit">Sign Up</button>
                 </form>
             </div>
             <div class="column right"></div>
