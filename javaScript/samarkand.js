@@ -1,6 +1,6 @@
 let activity = [
     {
-        "name": "Safary",
+        "name": "Safari",
         "style": "active",
         "price": "from 10$ and more"
     },
