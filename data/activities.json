@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "name": "Registan Square Guided Tour",
+    "city": "Samarkand",
+    "category": ["cultural", "museum", "photography", "walk"],
+    "price": "from 0$ (entrance free for square, museum +5$)",
+    "duration_hours": 2,
+    "description": "Step into the heart of Samarkand at Registan Square, where three madrasahs shimmer with their turquoise tilework. A local guide reveals centuries of Silk Road stories, and you can stay until or revisit at sunset for photos of the lions‑and‑sun mosaics on Sher‑Dor Madrasa."
+  },
+  {
+    "id": 2,
+    "name": "Shah‑i‑Zinda Necropolis Hike",
+    "city": "Samarkand",
+    "category": ["historical", "walk", "architecture"],
+    "price": "from 5$",
+    "duration_hours": 1.5,
+    "description": "Climb the ancient steps to Shah‑i‑Zinda, the luminous necropolis of Samarkand, where narrow lanes of tile‑draped mausoleums lead you uphill. Immerse yourself in the art of medieval artisans and the majesty of domes amid green sphinx carvings."
+  },
+  {
+    "id": 3,
+    "name": "Siyob (Bazaar) Market & Culinary Walk",
+    "city": "Samarkand",
+    "category": ["culinary", "local-life", "walk"],
+    "price": "from 10$",
+    "duration_hours": 2,
+    "description": "Wander the busy aisles of Siyob Bazaar, Samarkand’s oldest marketplace, sampling dried apricots, pilaf and fresh flatbread. With a food‑loving guide, you’ll taste Uzbek sweets, chat with spice merchants and uncover hidden café gems off the traditional tourist path."
+  },
+  {
+    "id": 4,
+    "name": "Bibi‑Khanym Mosque Sunset Visit",
+    "city": "Samarkand",
+    "category": ["mosque", "cultural", "photography"],
+    "price": "from 2$",
+    "duration_hours": 1,
+    "description": "Visit the grand Bibi‑Khanym Mosque as evening light washes its vast courtyard. Once one of the largest mosques in the Islamic world, its monumental iwan and faded frescoes now create a serene space to shoot dramatic sky‑dome photos."
+  },
+  {
+    "id": 5,
+    "name": "Ulugh Beg Observatory & Museum",
+    "city": "Samarkand",
+    "category": ["educational", "historical", "museum"],
+    "price": "from 4$",
+    "duration_hours": 1.5,
+    "description": "Explore the 15th‑century Ulugh Beg Observatory, where the famedastronomer‑emperor mapped the stars. A museum inside shows ancient instruments, while outside the hilltop view offers sweeping vistas of Samarkand and the bare valleys beyond."
+  },
+  {
+    "id": 6,
+    "name": "Anhor Locomotive Amusement",
+    "city": "Tashkent",
+    "category": ["amusement", "walking", "family"],
+    "price": "from 5$",
+    "duration_hours": 2,
+    "description": "Ride and explore historic and modern locomotives at Anhor Amusement Park. Perfect for families, it combines fun rides with a small railway museum, giving a hands-on experience for train enthusiasts of all ages."
+  },
+  {
+    "id": 7,
+    "name": "Central Park Adventure",
+    "city": "Tashkent",
+    "category": ["walking", "amusement", "nature"],
+    "price": "free",
+    "duration_hours": 2,
+    "description": "Enjoy a stroll or rent bicycles in Tashkent's Central Park. Between the amusement attractions, shaded pathways, and cafes, it’s ideal for both leisure and family fun. Seasonal events add extra excitement."
+  },
+  {
+    "id": 8,
+    "name": "Ashxobod Leisure Park",
+    "city": "Tashkent",
+    "category": ["walking", "amusement", "modern"],
+    "price": "from 3$",
+    "duration_hours": 1.5,
+    "description": "Ashxobod Park blends modern attractions with open green spaces. Visitors can enjoy walking paths, small amusement rides, and photo spots perfect for social media pictures while soaking in the local vibe."
+  },
+  {
+    "id": 9,
+    "name": "Magic City Park",
+    "city": "Tashkent",
+    "category": ["walking", "shopping", "modern"],
+    "price": "from 10$",
+    "duration_hours": 2,
+    "description": "Magic City Park combines retail, entertainment, and walking paths. Explore themed zones, shop for souvenirs, and enjoy fun rides or interactive experiences that are perfect for both young visitors and adults."
+  },
+  {
+    "id": 10,
+    "name": "Oasis Waterpark",
+    "city": "Tashkent",
+    "category": ["swimming", "family", "modern"],
+    "price": "from 15$",
+    "duration_hours": 3,
+    "description": "Oasis Waterpark offers slides, pools, and relaxation zones. Great for families or friends seeking a fun day out. Lifeguards and safety equipment ensure a secure environment for children and adults alike."
+  },
+  {
+    "id": 11,
+    "name": "Railway Museum",
+    "city": "Tashkent",
+    "category": ["train", "museum", "historical", "educational"],
+    "price": "from 2$",
+    "duration_hours": 1.5,
+    "description": "Step back in time at the Tashkent Railway Museum, featuring historic engines, carriages, and detailed exhibits. Perfect for history buffs and train enthusiasts looking to learn about Uzbekistan’s railway heritage."
+  },
+  {
+    "id": 12,
+    "name": "State Museum of the Temurids",
+    "city": "Tashkent",
+    "category": ["museum", "history", "educational", "cultural"],
+    "price": "from 4$",
+    "duration_hours": 2,
+    "description": "Discover the Timurid Empire through artifacts, detailed models, and historical documents. This museum is a must-visit for anyone interested in Central Asian history and architecture."
+  },
+  {
+    "id": 13,
+    "name": "Museum of Applied Arts",
+    "city": "Tashkent",
+    "category": ["museum", "history", "cultural", "arts"],
+    "price": "from 3$",
+    "duration_hours": 1.5,
+    "description": "Explore Uzbekistan’s rich artistic heritage in the Museum of Applied Arts. Beautiful ceramics, textiles, and traditional crafts illustrate the skill of local artisans over centuries."
+  },
+  {
+    "id": 14,
+    "name": "Tashkent Polytechnic Museum",
+    "city": "Tashkent",
+    "category": ["museum", "history", "educational"],
+    "price": "from 3$",
+    "duration_hours": 1,
+    "description": "The Polytechnic Museum offers a peek into technological advances in Uzbekistan. Exhibits include historical machinery, scientific instruments, and educational displays ideal for students and curious visitors."
+  },
+  {
+    "id": 15,
+    "name": "Museum of Victims of Political Repression",
+    "city": "Tashkent",
+    "category": ["history", "museum", "educational", "cultural"],
+    "price": "from 2$",
+    "duration_hours": 1,
+    "description": "Learn about Uzbekistan’s 20th-century political history and the victims of repression through powerful exhibits, documents, and personal stories."
+  },
+  {
+    "id": 16,
+    "name": "Minor Mosque Visit",
+    "city": "Tashkent",
+    "category": ["mosque", "cultural", "walk", "photography"],
+    "price": "free",
+    "duration_hours": 1,
+    "description": "Visit the serene Minor Mosque in Tashkent. Admire intricate tilework, relax in the courtyard, and capture beautiful photos. Ideal for reflection and cultural appreciation."
+  },
+  {
+    "id": 17,
+    "name": "Khast Imam Complex",
+    "city": "Tashkent",
+    "category": ["mosque", "cultural", "walk", "photography"],
+    "price": "from 2$",
+    "duration_hours": 1.5,
+    "description": "Explore Khast Imam, the historic Islamic complex of Tashkent. Includes the Barak-Khan Madrasa and ancient Qurans. Great for history lovers and photography enthusiasts."
+  },
+  {
+    "id": 18,
+    "name": "Amir Temur Square Stroll",
+    "city": "Tashkent",
+    "category": ["walking", "nature", "photography"],
+    "price": "free",
+    "duration_hours": 1,
+    "description": "Walk around Amir Temur Square, enjoy green spaces, sculptures, fountains, and street performances. A central spot for locals and tourists alike."
+  },
+  {
+    "id": 19,
+    "name": "Ecopark Picnic & Walk",
+    "city": "Tashkent",
+    "category": ["walking", "park", "nature", "picnic"],
+    "price": "from 2$",
+    "duration_hours": 2,
+    "description": "Ecopark offers walking trails, shaded picnic areas, and diverse flora. Perfect for a relaxing day outdoors and connecting with nature."
+  },
+  {
+    "id": 20,
+    "name": "Tashkent Zoo Visit",
+    "city": "Tashkent",
+    "category": ["animals", "walking", "nature", "family"],
+    "price": "from 3$",
+    "duration_hours": 2,
+    "description": "See exotic and native animals at Tashkent Zoo. Includes enclosures, feeding areas, and guided tours for an educational and fun experience."
+  },
+  {
+    "id": 21,
+    "name": "Botany Garden Exploration",
+    "city": "Tashkent",
+    "category": ["nature", "walking", "picnic", "educational"],
+    "price": "from 2$",
+    "duration_hours": 2,
+    "description": "The Tashkent Botany Garden showcases native and foreign plants. Great for walking, taking photos, and learning about plant species."
+  },
+  {
+    "id": 22,
+    "name": "Orient Village Hiking",
+    "city": "Tashkent",
+    "category": ["nature", "mountains", "resort", "hiking"],
+    "price": "from 10$",
+    "duration_hours": 3,
+    "description": "Orient Village offers hiking trails, mountain views, and local experiences. Ideal for nature lovers and outdoor adventure seekers."
+  },
+  {
+    "id": 23,
+    "name": "Sherwood Resort Hiking",
+    "city": "Tashkent",
+    "category": ["nature", "mountains", "resort", "hiking"],
+    "price": "from 12$",
+    "duration_hours": 3,
+    "description": "Sherwood Resort combines mountains, forests, and guided hiking tours. Perfect for day trips or weekend adventures."
+  },
+  {
+    "id": 24,
+    "name": "New Uzbekistan Park",
+    "city": "Tashkent",
+    "category": ["walking", "nature", "picnic", "modern"],
+    "price": "free",
+    "duration_hours": 1.5,
+    "description": "Relax and walk in New Uzbekistan Park. Modern design, fountains, sculptures, and open spaces for picnics and casual strolling."
+  },
+  {
+    "id": 25,
+    "name": "Chorsu Bazaar Culinary Tour",
+    "city": "Tashkent",
+    "category": ["culinary", "local-life", "bazaar", "walking"],
+    "price": "from 5$",
+    "duration_hours": 2,
+    "description": "Explore Chorsu Bazaar, sample street food, fresh produce, and learn about Uzbek culinary traditions from local vendors."
+  },
+  {
+    "id": 26,
+    "name": "Yunusabad Bazaar Visit",
+    "city": "Tashkent",
+    "category": ["culinary", "local-life", "bazaar", "walking"],
+    "price": "from 3$",
+    "duration_hours": 1.5,
+    "description": "Visit Yunusabad Bazaar for a colorful experience of local life, foods, and crafts."
+  },
+  {
+    "id": 100,
+    "name": "Po‑i‑Kalyan Ensemble & Minaret Visit",
+    "city": "Bukhara",
+    "category": ["historical", "cultural", "architecture", "photography"],
+    "price": "from 7$",
+    "duration_hours": 2,
+    "description": "Stand beneath the towering Kalyan Minaret and wander the adjacent mosque and madrasa complex in Bukhara. This iconic ensemble has stood for centuries as the heart of religious and scholarly life. Its blue domes and carved stone tell the story of empires past and make for unforgettable photos."
+  },
+  {
+    "id": 101,
+    "name": "Lyab‑i‑Hauz Evening Walk & Teahouse",
+    "city": "Bukhara",
+    "category": ["chill", "walk", "local‑life", "photography"],
+    "price": "from 3$",
+    "duration_hours": 1.5,
+    "description": "Relax around the reflecting pool of Lyab‑i‑Hauz at dusk, when old teahouses light up and locals gather for tea. The area’s 17th‑century architecture and leisurely ambience offer a striking contrast to daytime touring, and it’s perfect for a slow, atmospheric evening stroll."
+  },
+  {
+    "id": 102,
+    "name": "Ark Citadel of Bukhara Tour",
+    "city": "Bukhara",
+    "category": ["sightseeing", "historical", "walk"],
+    "price": "from 5$",
+    "duration_hours": 1.5,
+    "description": "Explore the fortified Ark of Bukhara, once the residence of the city’s emirs. Inside the citadel you’ll find royal courts, ancient halls, and vantage points overlooking the old town. A must‑see for anyone drawn to Silk Road history and living dynasties of Central Asia."
+  },
+  {
+    "id": 103,
+    "name": "Chor Minor ‘Four Minarets’ Visit",
+    "city": "Bukhara",
+    "category": ["architecture", "photography", "walk"],
+    "price": "from 4$",
+    "duration_hours": 1,
+    "description": "Visit the whimsical and unique Chor Minor, with its four colourful turrets set against the Bukhara skyline. Originally the gatehouse of a madrasa, it’s now one of the most Instagram‑friendly corners of the city and a delightful detour from the main tourist lanes."
+  },
+  {
+    "id": 104,
+    "name": "Trading Domes (Toqi) & Bazaar Exploration",
+    "city": "Bukhara",
+    "category": ["local‑life", "shopping", "bazaar", "walk"],
+    "price": "free to browse (from 2$ for souvenirs)",
+    "duration_hours": 2,
+    "description": "Wander the covered arcades of Bukhara’s medieval trading domes, where craftsmen welcome visitors and stalls spill over with textiles, ceramics and spices. Combining shopping with architecture and heritage, this experience brings old and new together in one vibrant marketplace."
+  }
+]
