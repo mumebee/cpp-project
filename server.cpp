@@ -31,6 +31,22 @@ void save_json(const string& path, const json& j) {
 int main() {
     httplib::Server svr;
 
+    svr.Get("/about", [&](auto&, auto& res){ 
+    res.set_content(read_file("pages/about.html"), "text/html"); 
+    });
+    svr.Get("/tashkent", [&](auto&, auto& res){
+        res.set_content(read_file("pages/tashkent.html"), "text/html");
+    });
+    svr.Get("/samarkand", [&](auto&, auto& res){
+        res.set_content(read_file("pages/samarkand.html"), "text/html");
+    });
+    svr.Get("/bukhara", [&](auto&, auto& res){
+        res.set_content(read_file("pages/bukhara.html"), "text/html");
+    });
+    svr.Get("/khiva", [&](auto&, auto& res){
+        res.set_content(read_file("pages/khiva.html"), "text/html");
+    });
+
     // Serve static HTML pages
     svr.Get("/", [&](auto&, auto& res){ res.set_content(read_file("pages/index.html"), "text/html"); });
     svr.Get("/quiz", [&](auto&, auto& res){ res.set_content(read_file("pages/quiz.html"), "text/html"); });
