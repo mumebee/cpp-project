@@ -337,17 +337,17 @@ header::before {
   z-index: 3;
 }
 .cap.left{
-  bottom: 615px;
+  bottom: 665px;
   left: calc(50% - 672.5px);
 }
 .cap.right{
-  bottom: 615px;
+  bottom: 665px;
   right: calc(50% - 672.5px);
 }
 .column{
   position: relative;
   width: 177px;
-  height: 600px;
+  height: 650px;
   background-color: #eba051;
   border: 3px solid #66411d;
   border-radius: 5px;
@@ -372,7 +372,7 @@ header::before {
   text-align: left;
   color: #ffffff;
   width:750px;
-  height: 539px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -395,11 +395,30 @@ header::before {
   font-family: "Semi Bold", sans-serif;
 }
 .form-arc input{
-  width: 470px;
-  padding: 35px;
+  width: 500px;
+  padding: 40px;
   border-radius: 20px;
   border: none;
   background-color: #ddd;
   margin-bottom: 15px;
   font-size: 24px;
+  height: 50px;
+  box-sizing: border-box;
+}
+
+#signupForm {
+  display: flex;
+  flex-direction: column;
+}
+#signupForm .sign{
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 140px;
+  height: 52px;
+  align-self: center;
+  cursor: pointer;
+  background-color: #66411d72;
+  font-size: 20px;
+  color: #ffffff;
 }
