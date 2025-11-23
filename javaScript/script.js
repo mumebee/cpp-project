@@ -1,5 +1,3 @@
-console.log("script.js подключен успешно");
-
 const slides = document.querySelector('.slides');
 const boxes = Array.from(document.querySelectorAll('.box'));
 const next = document.querySelector('.arrow.right');

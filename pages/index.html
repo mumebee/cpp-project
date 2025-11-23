@@ -20,6 +20,7 @@
                     <button onclick="window.location.href='/khiva'">Khiva</button>
                 </div>
             </div>
+            {{AUTH_SECTION}}
         <div class="search">
             <input type="text" class="search__input" placeholder="Search"/>
             <button class="search__button">
@@ -67,13 +68,8 @@
             <div class="form-arc">
                 <h1>Take us to your trip</h1>
                 <form id="signupForm">
-                <label for="name">Username</label>
-                <input type="text" id="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-                <label for="password">Password</label>
-                <input type="password" id="password" required>
-                <button type="submit" class="sign">Sign Up</button>
+                <button class="sign" onclick="window.location.href='/signup'">Sign Up</button>
+                <button class="sign" onclick="window.location.href='/signin'">Sign In</button>
                 </form>
             </div>
             <div class="column right"></div>

@@ -1,0 +1,116 @@
+body { 
+    margin: 0;
+    padding: 40px 0;
+    background-color: #16460cb1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    font-size: 36px;
+  }
+.form-container{
+    background: white;
+    width: 920px;
+    min-height: 600px;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #242d21;
+}
+form label{
+    display: block;
+    margin-top: 8px;
+    font-weight: 450;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 38px;
+    margin-top: 1px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.checkbox-group {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+h3 {
+    margin-top: 20px;
+    color: #2b322c;
+}
+button {
+  border: none;
+  padding: 20px;
+  border-radius: 18px;
+  width: 260px;
+  height: 80px;
+  cursor: pointer;
+  background-color: #66411dd9;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin: 40px auto 0;
+}
+button:hover {
+    transform: scale(1.01);
+    background-color: #5f3d20;
+}
+
+.checkbox-group input[type="checkbox"] {
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #5c3b1f;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.25s ease;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+    background-color: #5c3b1f;
+    border-color: #5c3b1f;
+}
+
+.checkbox-group input[type="checkbox"]:checked::after {
+    content: "✓";
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 4px;
+    top: -4px;
+    font-weight: bold;
+}
+
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    gap: 10px;
+    padding: 5px 0;
+    color: #2b322c;
+    user-select: none;
+}
+
+.checkbox-group input[type="checkbox"]:hover {
+    transform: scale(1.12);
+}

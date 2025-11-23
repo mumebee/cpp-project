@@ -92,11 +92,6 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 30px;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.activity_block.fade-out {
-    opacity: 0;
 }
 
 .activity {
@@ -275,7 +270,7 @@ main {
     position: absolute;
     height: 742px;
     width: 293px;
-    left: 160px;
+    left: 160px;    
     bottom: 235px;
 }
 
