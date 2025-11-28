@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Registan Square Guided Tour",
+    "image":"https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/27/cc/45.jpg",
     "city": "Samarkand",
     "category": ["cultural", "museum", "photography", "walk"],
     "price": 5,
@@ -11,6 +12,7 @@
   {
     "id": 2,
     "name": "Shah‑i‑Zinda Necropolis Hike",
+    "image":"https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy7O2aHMS-SHznv7NmKqEBJP5Sfbrfhtl3ASadmyPokGDlmqaxHcC6j5xMEeus2lh388OAKkpO4NAnmK0UPtmGDr8Bl6vF311ZSgmnAN8cfv1ZSrcD5zd8jU5R5F4c-1PbuUfV8xg=s1360-w1360-h1020-rw",
     "city": "Samarkand",
     "category": ["historical", "walk", "architecture"],
     "price":5,
@@ -20,6 +22,7 @@
   {
     "id": 3,
     "name": "Siyob (Bazaar) Market & Culinary Walk",
+    "image":"https://visitsilkroad.org/wp-content/uploads/2021/06/Samarkand-Siob-Bazaar-featured_image.jpg",
     "city": "Samarkand",
     "category": ["culinary", "local-life", "walk"],
     "price": 0,
@@ -29,6 +32,7 @@
   {
     "id": 4,
     "name": "Bibi‑Khanym Mosque Sunset Visit",
+    "image":"https://thumbs.dreamstime.com/b/samarkand-sunset-view-bibi-khanym-mosque-bibi-khanym-mosque-one-most-important-monuments-timur-207659396.jpg",
     "city": "Samarkand",
     "category": ["mosque", "cultural", "photography"],
     "price":2,
@@ -38,6 +42,7 @@
   {
     "id": 5,
     "name": "Ulugh Beg Observatory & Museum",
+    "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/19/36/f2/ulugbek-observatory.jpg?w=900&h=500&s=1",
     "city": "Samarkand",
     "category": ["educational", "historical", "museum"],
     "price":4,
@@ -47,6 +52,7 @@
   {
     "id": 6,
     "name": "Anhor Locomotive Amusement",
+    "image":"https://tourcentralasia.com/wp-content/uploads/2023/07/slide-768x1024.jpeg",
     "city": "Tashkent",
     "category": ["amusement", "walking", "family"],
     "price":5,
@@ -56,6 +62,7 @@
   {
     "id": 7,
     "name": "Central Park Adventure",
+    "image":"https://centralpark.uz/wp-content/uploads/2023/06/place_1.jpg",
     "city": "Tashkent",
     "category": ["walking", "amusement", "nature"],
     "price": 0,
@@ -65,6 +72,7 @@
   {
     "id": 8,
     "name": "Ashxobod Leisure Park",
+    "image":"https://thumbs.dreamstime.com/b/september-uzbekistan-tashkent-culture-leisure-park-ashgabat-panoramic-bird-s-eye-view-attractions-163595438.jpg",
     "city": "Tashkent",
     "category": ["walking", "amusement", "modern"],
     "price":3,
@@ -74,6 +82,7 @@
   {
     "id": 9,
     "name": "Magic City Park",
+    "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/87/a9/ad/caption.jpg?w=1200&h=1200&s=1",
     "city": "Tashkent",
     "category": ["walking", "shopping", "modern"],
     "price": 10,
@@ -83,6 +92,7 @@
   {
     "id": 10,
     "name": "Oasis Waterpark",
+    "image":"https://visitnebraska.com/sites/default/files/listing_images/profile/3297/IslandOasis_G.I._170.jpg",
     "city": "Tashkent",
     "category": ["swimming", "family", "modern"],
     "price": 15,
@@ -92,6 +102,7 @@
   {
     "id": 11,
     "name": "Railway Museum",
+    "image":"2wCEAAkGBxMTEhUTExMWFhUXGR4YGBgYGBsfHxoYGx0YHhggHSAfHyggIR8lHh0ZITEiJiorLi4uHR8zODMtNygtLisBCgoKDg0OGxAQGy0mICUtLS0tLS8tLy0vLS4tLS0tLS0tLS0tLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf",
     "city": "Tashkent",
     "category": ["train", "museum", "historical", "educational"],
     "price": 2,
@@ -101,6 +112,7 @@
   {
     "id": 12,
     "name": "State Museum of the Temurids",
+    "image":"https://uzbekistan.travel/storage/app/media/Otabek/Amir%20Temur/Muzey/cropped-images/1-15-0-0-0-0-1724047697.jpg",
     "city": "Tashkent",
     "category": ["museum", "history", "educational", "cultural"],
     "price": 4,
@@ -110,6 +122,7 @@
   {
     "id": 13,
     "name": "Museum of Applied Arts",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWX9qrPw-GRwc5oLH_cd61L1QGJ9G2TQmDqQ&s",
     "city": "Tashkent",
     "category": ["museum", "history", "cultural", "arts"],
     "price": 3,
@@ -119,6 +132,7 @@
   {
     "id": 14,
     "name": "Tashkent Polytechnic Museum",
+    "image":"https://uzbekistan.travel/storage/app/media/Otabek/Politexnika%20muzeyi/cropped-images/photo_2022-09-26_11-11-21-0-0-0-0-1664437641.jpg",
     "city": "Tashkent",
     "category": ["museum", "history", "educational"],
     "price": 3,
@@ -128,6 +142,7 @@
   {
     "id": 15,
     "name": "Museum of Victims of Political Repression",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb3GXJnLl7aSQxGyqng1SRchSBcTIyoYEtTg&s",
     "city": "Tashkent",
     "category": ["history", "museum", "educational", "cultural"],
     "price": 2,
@@ -137,6 +152,7 @@
   {
     "id": 16,
     "name": "Minor Mosque Visit",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN0xHUIsm6oFoeI1rk0hGEk37MSWfdZ59l9g&s",
     "city": "Tashkent",
     "category": ["mosque", "cultural", "walk", "photography"],
     "price": 0,
@@ -146,6 +162,7 @@
   {
     "id": 17,
     "name": "Khast Imam Complex",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR84Ad1cSH1jsV0h85VVn5i7zqefrMSzFXjMA&s",
     "city": "Tashkent",
     "category": ["mosque", "cultural", "walk", "photography"],
     "price": 2,
@@ -155,6 +172,7 @@
   {
     "id": 18,
     "name": "Amir Temur Square Stroll",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjRO0Yytkeu3nU3ArAIzkQS0032RLX6S781w&s",
     "city": "Tashkent",
     "category": ["walking", "nature", "photography"],
     "price": 0,
@@ -164,6 +182,7 @@
   {
     "id": 19,
     "name": "Ecopark Picnic & Walk",
+    "image":"https://cachizer3.2gis.com/reviews-photos/ae1fca2f-f02a-433f-8d59-f9c72b8c1738.jpg?w=1920",
     "city": "Tashkent",
     "category": ["walking", "park", "nature", "picnic"],
     "price":2,
@@ -173,6 +192,7 @@
   {
     "id": 20,
     "name": "Tashkent Zoo Visit",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjsE2bEAaBvpZrju2QucBf_Sc8xcRMqopJaw&s",
     "city": "Tashkent",
     "category": ["animals", "walking", "nature", "family"],
     "price":3,
@@ -182,6 +202,7 @@
   {
     "id": 21,
     "name": "Botany Garden Exploration",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzDFXQyVDVd9BtLZEOLBuvBWYD4LEAWkts1g&s",
     "city": "Tashkent",
     "category": ["nature", "walking", "picnic", "educational"],
     "price":2,
@@ -191,6 +212,7 @@
   {
     "id": 22,
     "name": "Orient Village Hiking",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGZ_a6mrAKlnuWegU9jtlsMhMIBR620cVpog&s",
     "city": "Tashkent",
     "category": ["nature", "mountains", "resort", "hiking"],
     "price": 10,
@@ -200,6 +222,7 @@
   {
     "id": 23,
     "name": "Sherwood Resort Hiking",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjnFip0ACeCpOxLI-C95KFwKaHUZpozJd-Jw&s",
     "city": "Tashkent",
     "category": ["nature", "mountains", "resort", "hiking"],
     "price": 12,
@@ -209,6 +232,7 @@
   {
     "id": 24,
     "name": "New Uzbekistan Park",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy7acVxG778pKWiV3ukjwW8TRSEqjGPJ3Lew&s",
     "city": "Tashkent",
     "category": ["walking", "nature", "picnic", "modern"],
     "price": 10,
@@ -218,6 +242,7 @@
   {
     "id": 25,
     "name": "Chorsu Bazaar Culinary Tour",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUsqOq05LL4XbwPWc9xzDgQiDjr_pn2ZeD6w&s",
     "city": "Tashkent",
     "category": ["culinary", "local-life", "bazaar", "walking"],
     "price":5,
@@ -227,6 +252,7 @@
   {
     "id": 26,
     "name": "Yunusabad Bazaar Visit",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42UxIG-ouMSgfcDEqfwvX16bkGVigMJtM3g&s",
     "city": "Tashkent",
     "category": ["culinary", "local-life", "bazaar", "walking"],
     "price":3,
@@ -236,6 +262,7 @@
   {
     "id": 27,
     "name": "Po‑i‑Kalyan Ensemble & Minaret Visit",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLMYnKWq3EaF1rs0Ngj22swqdx0Jbyw0BeOg&s",
     "city": "Bukhara",
     "category": ["historical", "cultural", "architecture", "photography"],
     "price":7,
@@ -245,6 +272,7 @@
   {
     "id": 28,
     "name": "Lyab‑i‑Hauz Evening Walk & Teahouse",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyz-a1c6dbFSNTcHVtLV2qAoyk7m3MsqiLoA&s",
     "city": "Bukhara",
     "category": ["chill", "walk", "local‑life", "photography"],
     "price":3,
@@ -254,6 +282,7 @@
   {
     "id": 29,
     "name": "Ark Citadel of Bukhara Tour",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq4lZO5tqhovBMoWGiuVh6FXnppBZ8AdrPYA&s",
     "city": "Bukhara",
     "category": ["sightseeing", "historical", "walk"],
     "price":5,
@@ -263,6 +292,7 @@
   {
     "id": 30,
     "name": "Chor Minor ‘Four Minarets’ Visit",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUigGS6FKt_YdpkzeVcaUZY2PJdEhZh0fEgA&s",
     "city": "Bukhara",
     "category": ["architecture", "photography", "walk"],
     "price":4,
@@ -272,6 +302,7 @@
   {
     "id": 31,
     "name": "Trading Domes (Toqi) & Bazaar Exploration",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScI65dxtFOU83SKRsi4e8GbOykiR2CAFVbaw&s",
     "city": "Bukhara",
     "category": ["local‑life", "shopping", "bazaar", "walk"],
     "price":0,

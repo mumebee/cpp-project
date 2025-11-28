@@ -1,81 +1,65 @@
-let activity = [
-    {
-        "name": "Safari",
-        "style": "active",
-        "price": "from 10$ and more"
-    },
-    {
-        "name": "Trampoline",
-        "style": "active",
-        "price": "from 20$ and more"
-    },
-    {
-        "name": "Magic city",
-        "style": "active",
-        "price": "from 30$ and more"
-    },
-    {
-        "name": "zoo",
-        "style": "active",
-        "price": "from 40$ and more"
-    },
-    {
-        "name": "Attraction",
-        "style": "active",
-        "price": "from 50$ and more"
-    },
-    {
-        "name": "Spectacle",
-        "style": "chill",
-        "price": "from 60$ and more"
-    },
-    {
-        "name": "Cinema",
-        "style": "chill",
-        "price": "from 15$ and more"
-    },
-      {
-        "name": "Cinema",
-        "style": "chill",
-        "price": "from 15$ and more"
-    }
-]
+let db = [];
 
-let activityBlock = document.querySelector(".activity_block")
-let ActivitySetNum = 0
-const maxItemActivity = 6
+const SamarkandCityName = "Samarkand";
+const CardContainerId = "activity-cards-container";
 
+const ActivityUrl = "http://127.0.0.1:5501/cpp-project/data/activities.json";
+
+console.log("Attempting to fetch from:", ActivityUrl);
+
+let activityBlock = document.querySelector(".activity_block");
+let ActivitySetNum = 0;
+const maxItemActivity = 8;
+
+// 1) Fetch corrigé
+function initActivities(url) {
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            db = data; 
+            displayActivities();
+            setInterval(displayActivities, 5000);
+        })
+        .catch(err => console.error(err));
+}
+
+initActivities(ActivityUrl);
+
+// 2) Affichage corrigé
 function displayActivities() {
-    // Fade out
-    activityBlock.classList.add('fade-out')
+    activityBlock.classList.add('fade-out');
 
     setTimeout(() => {
-        let start = ActivitySetNum * maxItemActivity
-        let end = start + maxItemActivity
 
-        let currentActivities = activity.slice(start, end)
+        // 1. Filtrer par ville
+        let filtered = db.filter(item => item.city === "Samarkand");
 
+        // 2. Découper l'ensemble de 8 éléments
+        let start = ActivitySetNum * maxItemActivity;
+        let end = start + maxItemActivity;
+        let currentActivities = filtered.slice(start, end);
+
+        // 3. Affichage
         activityBlock.innerHTML = currentActivities.map(element => `
             <div class="activity">
-                <img src="../images/tashkent.jpg">
+                <img src="${element.image}">
                 <div class="activity_info">
                     <span>NAME: ${element.name}</span>
-                    <span>STYLE: ${element.style}</span>
-                    <span>TYPE:</span>
+                    <span>STYLE: ${element.category}</span>
                     <span>PRICES: ${element.price}</span>
                 </div>
             </div>
-        `).join('')
+        `).join('');
 
-        activityBlock.classList.remove('fade-out')
+        activityBlock.classList.remove('fade-out');
 
-        ActivitySetNum++
+        // 4. Passer au prochain set
+        ActivitySetNum++;
 
-        if (start + maxItemActivity >= activity.length) {
-            ActivitySetNum = 0
+        // 5. Si on dépasse le nombre d'activités filtrées → recommencer
+        if (start + maxItemActivity >= filtered.length) {
+            ActivitySetNum = 0;
         }
-    }, 500) // Attend la fin du fade out
-}
 
-displayActivities()
-setInterval(displayActivities, 5000)
+    }, 500);
+}

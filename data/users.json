@@ -165,5 +165,68 @@
             "preferred_name": "Five"
         },
         "username": "five"
+    },
+    {
+        "email": "wer@wer.wer",
+        "id": 9,
+        "password": "wer",
+        "quiz": {
+            "activities": [
+                "museum",
+                "walk",
+                "cultural",
+                "modern"
+            ],
+            "age": "34",
+            "budget": "56",
+            "cities": [
+                "Tashkent",
+                "Bukhara"
+            ],
+            "preferred_name": "Werr"
+        },
+        "username": "wer"
+    },
+    {
+        "email": "mis@mis.com",
+        "id": 10,
+        "password": "mis",
+        "quiz": {
+            "activities": [
+                "culinary",
+                "museum",
+                "walk",
+                "cultural"
+            ],
+            "age": "23",
+            "budget": "63",
+            "cities": [
+                "Samarkand",
+                "Tashkent"
+            ],
+            "preferred_name": "Mis"
+        },
+        "username": "Mis"
+    },
+    {
+        "email": "marmelade@gmail.com",
+        "id": 11,
+        "password": "bears2025",
+        "quiz": {
+            "activities": [
+                "culinary",
+                "museum",
+                "walk",
+                "cultural"
+            ],
+            "age": "34",
+            "budget": "34",
+            "cities": [
+                "Samarkand",
+                "Tashkent"
+            ],
+            "preferred_name": "wreq"
+        },
+        "username": "paddington2020"
     }
 ]
