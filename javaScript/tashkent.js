@@ -1,6 +1,6 @@
 let db = [];
 
-const SamarkandCityName = "Samarkand";
+const TashkentCityName = "Tashkent";
 const CardContainerId = "activity-cards-container";
 
 const ActivityUrl = "http://127.0.0.1:5501/cpp-project/data/activities.json";
@@ -32,7 +32,7 @@ function displayActivities() {
     setTimeout(() => {
 
         // 1. Filtrer par ville
-        let filtered = db.filter(item => item.city === "Samarkand");
+        let filtered = db.filter(item => item.city === "Tashkent");
 
         // 2. Découper l'ensemble de 8 éléments
         let start = ActivitySetNum * maxItemActivity;

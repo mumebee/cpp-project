@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,26 +17,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/samarkand.css">
+
+    <title>Samarkand</title>
 </head>
 
 <body>
-
-    <header>
+          <header>
         <div class="logo">
-            <img src="" alt="">
+            <img src="../images/logo_2.png">
         </div>
-        <div class="services">
-            <ul>
-                <li>about us</li>
-                <li>services</li>
-                <li>booking</li>
-                <li><img src="../images/search.png"></li>
-            </ul>
+        
+        <div class="nav-buttons">
+            <button onclick="window.location.href='/'">MAIN</button>
+            <button onclick="window.location.href='/about'">ABOUT US</button>
+            <div class="dropdown">
+                <button class="drop" id="Drop">DESTINATIONS</button>
+                <div class="dropdown-content" id="dropContent">
+                    <button onclick="window.location.href='/tashkent'">Tashkent</button>
+                    <button onclick="window.location.href='/samarkand'">Samarkand</button>
+                    <button onclick="window.location.href='/bukhara'">Bukhara</button>
+                    <button onclick="window.location.href='/khiva'">Khiva</button>
+                </div>
+            </div> 
+        <div class="search">
+            <input type="text" class="search__input" placeholder="Search"/>
+            <button class="search__button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                  </svg>
+            </button>
         </div>
+    </div>
     </header>
     <main>
         <div class="main_one">
-            <img src="../images/samarkand.jpg" alt="Samarkand">
+            <img src="../images/samarkand2.jpg" alt="Samarkand">
         </div>
         <div class="main_two">
             <span class="main_two_span">ACTIVITIES</span>
