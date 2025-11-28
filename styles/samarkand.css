@@ -131,7 +131,7 @@ main {
     padding: 15px;
     /* Ajoute un peu d'espace intérieur */
     background-color: rgba(225, 225, 225, 0.25);
-    backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
     /* Optionnel : effet de flou pour mieux voir le texte */
     border-radius: 0px 0px 10px 10px;
 }

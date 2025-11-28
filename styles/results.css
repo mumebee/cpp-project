@@ -2,20 +2,17 @@
     font-family: 'kalam';
     src: url('/images/kalam.ttf') format('truetype');
 }
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #697d5c;
+    background-color: #8a9a82;
     color: #2b322c;
     padding-top: 100px;
 }
-
 /* Header Styles - Matching style.css */
 header {
     width: 100%;
@@ -31,7 +28,6 @@ header {
     left: 0;
     z-index: 10;
 }
-
 header::before {
     content: '';
     position: fixed;
@@ -44,18 +40,15 @@ header::before {
     -webkit-backdrop-filter: blur(5px);
     z-index: -1;
 }
-
 .logo {
     font-size: 70px;
     font-weight: bold;
     font-family: "kalam";
 }
-
 .nav-buttons {
     display: flex;
     gap: 30px;
 }
-
 .nav-buttons button {
     cursor: pointer;
     padding: 10px 15px;
@@ -64,11 +57,9 @@ header::before {
     background-color: #ffffff00;
     font-size: 28px;
 }
-
 .dropdown {
     position: relative;
 }
-
 .drop {
     background-color: #ffffff50;
     border: none;
@@ -76,7 +67,6 @@ header::before {
     display: flex;
     align-items: center;
 }
-
 .dropdown-content {
     margin-top: 23px;
     position: absolute;
@@ -97,13 +87,11 @@ header::before {
     transform: translateY(0px);
     transition: all 0.35s cubic-bezier(0.25, 1, 0.3, 1);
 }
-
 .dropdown-content.show {
     max-height: 500px;
     opacity: 1;
     transform: translateY(0px);
 }
-
 .dropdown-content button {
     width: 100%;
     padding: 10px;
@@ -112,11 +100,9 @@ header::before {
     text-align: left;
     cursor: pointer;
 }
-
 .dropdown-content button:hover {
     background-color: #ffaa0067;
 }
-
 /* Search Box */
 .search {
     display: inline-flex;
@@ -166,21 +152,18 @@ header::before {
 
 /* Welcome Section */
 .welcome-section {
-    background-color: #697d5c;
+    background-color: #8a9a82;
     padding: 60px 40px 40px;
     text-align: center;
 }
-
 .welcome-section h2 {
     font-size: 48px;
     font-style: italic;
-    font-family: 'kalam', cursive;
-    color: #1a3d0f;
+    color: #071e07;
     max-width: 1200px;
     margin: 0 auto 30px;
     line-height: 1.4;
 }
-
 .budget-info {
     display: flex;
     justify-content: center;
@@ -188,41 +171,34 @@ header::before {
     margin-top: 30px;
     flex-wrap: wrap;
 }
-
 .budget-info p {
     font-size: 28px;
     color: #ffffff;
-    background-color: #5c6e52;
+    background-color: #c7dfa7;
     padding: 15px 35px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
 .budget-info strong {
     color: #ffc30c;
 }
-
 /* Results Container */
 #results-container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 40px 20px;
 }
-
 /* City Cards */
 .city-card {
     margin-bottom: 60px;
 }
-
 .city-card h3 {
     font-size: 42px;
-    color: #1a3d0f;
+    color: #071e07;
     margin-bottom: 30px;
     font-style: italic;
-    font-family: 'kalam', cursive;
     text-align: center;
 }
-
 .city-card ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -230,55 +206,37 @@ header::before {
     list-style: none;
     padding: 0;
 }
-
 .city-card li {
-    background-color: #8a9a82;
+    background-color: #eef6e5;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-
 .city-card li:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
-
 .activity-info {
     padding: 35px;
-    background-color: #8a9a82;
+    background-color: #eef6e5;
     color: #ffffff;
 }
-
 .activity-info strong {
     display: block;
-    font-size: 32px;
+    font-size: 36px;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #043726;
     letter-spacing: 1px;
 }
-
 .activity-details {
-    font-size: 26px;
+    font-size: 28px;
     line-height: 2.2;
-    color: #ffffff;
+    color: #043726;
+    font-weight: 600;
 }
-
 .activity-details div {
     margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    background-color: #5c6e52;
-    color: #ffffff;
-    text-align: center;
-    padding: 30px;
-    margin-top: 80px;
-}
-
-footer p {
-    font-size: 18px;
 }
 
 /* Responsive Design */
@@ -287,31 +245,22 @@ footer p {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         height: auto;
         padding: 15px;
     }
-    
-    header::before {
-        height: auto;
-    }
-    
     .nav-buttons {
         flex-direction: column;
         gap: 15px;
     }
-    
     .welcome-section h2 {
         font-size: 32px;
     }
-    
     .city-card ul {
         grid-template-columns: 1fr;
-    }
-    
+    }  
     .city-card h3 {
         font-size: 32px;
     }

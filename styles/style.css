@@ -16,7 +16,7 @@ header {
   top: 0;
   left: 0;
   z-index: 10;
-  backdrop-filter: none; /* Remove */
+  backdrop-filter: none;
 }
 
 /*unified blur background */
@@ -42,9 +42,6 @@ header::before {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
-
 .photo2 {
   height: 128vh;
   background-image: url("/images/cities.jpg");
@@ -212,7 +209,6 @@ header::before {
   display: flex;
   transition: transform 0.8s ease;
   align-items: center;
-  gap: 60px; 
   will-change: transform;
   gap: 20px;
   overflow: visible;
@@ -290,6 +286,7 @@ header::before {
   pointer-events: none;
   transition: opacity 0.4s ease;
   z-index: 10;
+  font-size: 34px;
 }
 .overlay p{margin: 0 20px;}
 .box.show-overlay .overlay{opacity: 1;}
@@ -383,8 +380,8 @@ header::before {
 }
 .form-arc h1{
   height: 70px;
-  margin-bottom: 20px;
-  font-size: 64px;
+  margin-bottom: -10px;
+  font-size: 66px;
   font-family: "kalam";
   text-align: center;
 }
@@ -414,8 +411,8 @@ header::before {
   border: none;
   padding: 10px 20px;
   border-radius: 15px;
-  width: 240px;
-  height: 100px;
+  width: 210px;
+  height: 75px;
   margin: 20px;
   align-self: center;
   cursor: pointer;
