@@ -3,7 +3,7 @@ let db = [];
 const SamarkandCityName = "Samarkand";
 const CardContainerId = "activity-cards-container";
 
-const ActivityUrl = "http://127.0.0.1:5501/cpp-project/data/activities.json";
+const ActivityUrl = "/data/activities.json";
 
 console.log("Attempting to fetch from:", ActivityUrl);
 
@@ -63,3 +63,18 @@ function displayActivities() {
 
     }, 500);
 }
+const drop = document.getElementById('Drop');
+const dropdown = drop.parentElement;
+const content = dropdown.querySelector('.dropdown-content');
+
+drop.addEventListener('click', (e) => {
+  content.classList.toggle('show');
+  e.stopPropagation();
+});
+
+
+window.addEventListener('click', (e) => {
+  if (!dropdown.contains(e.target)) {
+    content.classList.remove('show');
+  }
+});
