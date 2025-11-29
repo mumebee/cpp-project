@@ -1,196 +1,68 @@
 [
     {
-        "email": "qwe@q.w",
+        "email": "sdf@sdf.sdf",
         "id": 1,
-        "password": "qwe",
+        "password": "sdf",
         "quiz": {
             "activities": [
-                "culinary",
-                "museum",
                 "walk",
                 "cultural",
                 "modern"
             ],
             "age": "23",
-            "budget": "50",
+            "budget": "34",
             "cities": [
                 "Samarkand",
                 "Tashkent"
             ],
-            "preferred_name": "Qwe"
+            "preferred_name": "sdf"
         },
-        "username": "qwe"
+        "username": "sdf"
     },
     {
-        "email": "abcrd@a.c",
+        "email": "abc@gmail.com",
         "id": 2,
-        "password": "abcd",
+        "password": "abc",
         "quiz": {
             "activities": [
-                "culinary",
                 "museum",
+                "walk",
                 "cultural"
             ],
-            "age": "19",
-            "budget": "35",
+            "age": "22",
+            "budget": "23",
             "cities": [
                 "Samarkand",
                 "Tashkent"
             ],
-            "preferred_name": "abcd"
+            "preferred_name": "abc"
         },
-        "username": "abcd"
+        "username": "abc"
     },
     {
-        "email": "one@on.e",
+        "email": "wer@we.r",
         "id": 3,
-        "password": "one",
-        "quiz": {
-            "activities": [
-                "museum",
-                "walk",
-                "cultural",
-                "modern"
-            ],
-            "age": "34",
-            "budget": "",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "One"
-        },
-        "username": "one"
-    },
-    {
-        "email": "two@t.wo",
-        "id": 4,
-        "password": "two",
-        "quiz": {
-            "activities": [
-                "museum",
-                "walk",
-                "cultural",
-                "modern"
-            ],
-            "age": "26",
-            "budget": "",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "Two"
-        },
-        "username": "two"
-    },
-    {
-        "email": "three@t.r",
-        "id": 5,
-        "password": "three",
-        "quiz": {
-            "activities": [
-                "culinary",
-                "museum",
-                "walk",
-                "cultural"
-            ],
-            "age": "23",
-            "budget": "",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "Three"
-        },
-        "username": "three"
-    },
-    {
-        "email": "four@fo.ur",
-        "id": 6,
-        "password": "four",
-        "quiz": {
-            "activities": [
-                "culinary",
-                "museum",
-                "walk",
-                "cultural"
-            ],
-            "age": "24",
-            "budget": "34",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "Four"
-        },
-        "username": "four"
-    },
-    {
-        "email": "fg@f.g",
-        "id": 7,
-        "password": "fg",
-        "quiz": {
-            "activities": [
-                "walk",
-                "cultural",
-                "modern"
-            ],
-            "age": "32",
-            "budget": "34",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "Fg"
-        },
-        "username": "fg"
-    },
-    {
-        "email": "five@five.five",
-        "id": 8,
-        "password": "five",
-        "quiz": {
-            "activities": [
-                "culinary",
-                "museum",
-                "cultural",
-                "modern"
-            ],
-            "age": "25",
-            "budget": "45",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "Five"
-        },
-        "username": "five"
-    },
-    {
-        "email": "wer@wer.wer",
-        "id": 9,
         "password": "wer",
         "quiz": {
             "activities": [
+                "culinary",
                 "museum",
-                "walk",
-                "cultural",
-                "modern"
+                "walk"
             ],
-            "age": "34",
-            "budget": "56",
+            "age": "25",
+            "budget": "25",
             "cities": [
-                "Tashkent",
-                "Bukhara"
+                "Samarkand",
+                "Tashkent"
             ],
-            "preferred_name": "Werr"
+            "preferred_name": "Sir"
         },
         "username": "wer"
     },
     {
-        "email": "mis@mis.com",
-        "id": 10,
-        "password": "mis",
+        "email": "qw@q.w",
+        "id": 4,
+        "password": "qw",
         "quiz": {
             "activities": [
                 "culinary",
@@ -198,35 +70,14 @@
                 "walk",
                 "cultural"
             ],
-            "age": "23",
-            "budget": "63",
+            "age": "12",
+            "budget": "23",
             "cities": [
-                "Samarkand",
-                "Tashkent"
+                "Tashkent",
+                "Bukhara"
             ],
-            "preferred_name": "Mis"
+            "preferred_name": "QW"
         },
-        "username": "Mis"
-    },
-    {
-        "email": "marmelade@gmail.com",
-        "id": 11,
-        "password": "bears2025",
-        "quiz": {
-            "activities": [
-                "culinary",
-                "museum",
-                "walk",
-                "cultural"
-            ],
-            "age": "34",
-            "budget": "34",
-            "cities": [
-                "Samarkand",
-                "Tashkent"
-            ],
-            "preferred_name": "wreq"
-        },
-        "username": "paddington2020"
+        "username": "qw"
     }
 ]

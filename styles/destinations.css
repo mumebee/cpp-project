@@ -32,13 +32,10 @@ header::before {
     -webkit-backdrop-filter: blur(5px);
     z-index: -1;
 }
-.logo{
-  font-size: 70px;
-  font-weight: bold;
-  font-family: "kalam";
+.logo img{
+  width: 250px;
+  height: 200px;
 }
-
-
 
 .nav-buttons{
   display: flex;
