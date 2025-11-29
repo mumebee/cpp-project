@@ -56,13 +56,9 @@ header::before {
     z-index: -1;
 }
 
-.logo {
-    margin-top: 2px;
-}
-
-.logo img {
-    height: 180px;
-    width: 356px;
+.logo img{
+    width: 250px;
+    height: 200px;
 }
 
 .nav-buttons {

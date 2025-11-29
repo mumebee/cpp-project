@@ -53,13 +53,11 @@ header::before {
   font-family: 'kalam';
   src: url('/images/kalam.ttf') format('truetype');
 }
-.logo{
-  font-size: 70px;
-  font-weight: bold;
-  font-family: "kalam";
+
+.logo img{
+  width: 250px;
+  height: 200px;
 }
-
-
 
 .nav-buttons{
   display: flex;

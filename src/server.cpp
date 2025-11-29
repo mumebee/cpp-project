@@ -23,6 +23,12 @@ int main() {
     svr.Get("/javaScript/(.*)", [](auto& req, auto& res){res.set_content(read_file("javaScript/" + req.matches[1].str()), "application/javascript");});
     svr.Get("/images/(.*)", [](auto& req, auto& res){res.set_content(read_file("images/" + req.matches[1].str()), "image/jpeg");});
 
+    svr.Get("/data/(.*)", [&](auto& req, auto& res){
+        string filepath = "data/" + req.matches[1].str();
+        string content = read_file(filepath);
+        res.set_content(content, "application/json");     
+    });
+
     svr.Post("/signup", handle_signup);
     svr.Post("/signin", handle_signin);
     svr.Get("/logout", handle_logout);
