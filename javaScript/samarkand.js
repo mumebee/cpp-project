@@ -1,4 +1,4 @@
-let db = [];
+let db = []
 
 const SamarkandCityName = "Samarkand";
 const CardContainerId = "activity-cards-container";
@@ -78,3 +78,64 @@ window.addEventListener('click', (e) => {
     content.classList.remove('show');
   }
 });
+
+// hotels
+
+const HotelsUrl = "/data/hotels.json";
+let db_h = [];
+let filteredHotels = [];
+let currentIndex = 0;
+
+// Fetch hotels data
+fetch(HotelsUrl)
+    .then(res => res.json())
+    .then(data => {
+        db_h = data;
+        // Filter hotels by current city
+        filteredHotels = db_h.filter(hotel => hotel.city === SamarkandCityName);
+        if (filteredHotels.length > 0) {
+            displayHotel(currentIndex);
+        }
+    })
+    .catch(err => console.error(err));
+
+// Function to display hotel
+function displayHotel(index) {
+    if (filteredHotels.length === 0) return;
+    
+    const hotel = filteredHotels[index];
+    const hotelDiv = document.querySelector('.hotel');
+    const img = hotelDiv.querySelector('img');
+    const span = hotelDiv.querySelector('span');
+    
+    // Update image (use placeholder if empty)
+    img.src = hotel.image || '../images/tashkent.jpg';
+    img.alt = hotel.name;
+    
+    // Update hotel name
+    span.textContent = hotel.name;
+}
+
+// Left button - previous hotel
+document.querySelector('.main_three_left').addEventListener('click', () => {
+    if (filteredHotels.length === 0) return;
+    
+    currentIndex--;
+    if (currentIndex < 0) {
+        currentIndex = filteredHotels.length - 1; // Loop to last hotel
+    }
+    displayHotel(currentIndex);
+});
+
+// Right button - next hotel
+document.querySelector('.main_three_right').addEventListener('click', () => {
+    if (filteredHotels.length === 0) return;
+    
+    currentIndex++;
+    if (currentIndex >= filteredHotels.length) {
+        currentIndex = 0; // Loop back to first hotel
+    }
+    displayHotel(currentIndex);
+});
+
+

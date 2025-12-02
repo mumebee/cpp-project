@@ -1,77 +1,77 @@
 [
     {
         "city":"Samarkand",
-        "name":"Laplace",
+        "name":"Sangzor Boutique Hotel",
         "image":""
     },
     {
         "city":"Samarkand",
-        "name":"Laplace",
+        "name":"Savitsky Plaza",
         "image":""
     },
     {
         "city":"Samarkand",
-        "name":"Laplace",
+        "name":"Hotel Minor",
         "image":""
     },
     {
         "city":"Samarkand",
-        "name":"Laplace",
+        "name":"Hilton Samarkand Hotel",
         "image":""
     },
     {
         "city":"Samarkand",
-        "name":"Laplace",
+        "name":"Silk Road by Minyoun",
         "image":""
     },
     {
         "city":"Tashkent",
-        "name":"Laplace",
+        "name":"InterContinental Tashkent",
         "image":""
     },
     {
         "city":"Tashkent",
-        "name":"Laplace",
+        "name":"Swissotel Tashkent",
+        "image":"Hilton Tashkent"
+    },
+    {
+        "city":"Tashkent",
+        "name":"Crowne Plaza Tashkent",
         "image":""
     },
     {
         "city":"Tashkent",
-        "name":"Laplace",
+        "name":"Courtyard by Marriott Tashkent",
         "image":""
     },
     {
         "city":"Tashkent",
-        "name":"Laplace",
-        "image":""
-    },
-    {
-        "city":"Tashkent",
-        "name":"Laplace",
+        "name":"Bentley Hotel Tashkent",
         "image":""
     },
     {
         "city":"Bukhara",
-        "name":"Laplace",
+        "name":"Mercure Bukhara",
         "image":""
     },
     {
         "city":"Bukhara",
-        "name":"Laplace",
+        "name":"Wyndham Bukhara",
         "image":""
     },
     {
         "city":"Bukhara",
-        "name":"Laplace",
+        "name":"DUSTON",
         "image":""
     },
     {
         "city":"Bukhara",
-        "name":"Laplace",
+        "name":"Marhaba",
         "image":""
     },
     {
         "city":"Bukhara",
-        "name":"Laplace",
+        "name":"AL-HAYAT",
         "image":""
     }
     
