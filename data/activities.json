@@ -308,5 +308,35 @@
     "price":0,
     "duration_hours": 2,
     "description": "Wander the covered arcades of Bukhara’s medieval trading domes, where craftsmen welcome visitors and stalls spill over with textiles, ceramics and spices. Combining shopping with architecture and heritage, this experience brings old and new together in one vibrant marketplace."
+  },
+    {
+    "id": 32,
+    "name": "Registan Square Guided Tour",
+    "image":"https://media.tacdn.com/media/attractions-splice-spp-360x240/0f/27/cc/45.jpg",
+    "city": "Samarkand",
+    "category": ["cultural", "museum", "photography", "walk"],
+    "price": 5,
+    "duration_hours": 2,
+    "description": "Step into the heart of Samarkand at Registan Square, where three madrasahs shimmer with their turquoise tilework. A local guide reveals centuries of Silk Road stories, and you can stay until or revisit at sunset for photos of the lions‑and‑sun mosaics on Sher‑Dor Madrasa."
+  },
+  {
+    "id": 33,
+    "name": "Shah‑i‑Zinda Necropolis Hike",
+    "image":"https://lh3.googleusercontent.com/gps-cs-s/AG0ilSy7O2aHMS-SHznv7NmKqEBJP5Sfbrfhtl3ASadmyPokGDlmqaxHcC6j5xMEeus2lh388OAKkpO4NAnmK0UPtmGDr8Bl6vF311ZSgmnAN8cfv1ZSrcD5zd8jU5R5F4c-1PbuUfV8xg=s1360-w1360-h1020-rw",
+    "city": "Samarkand",
+    "category": ["historical", "walk", "architecture"],
+    "price":5,
+    "duration_hours": 1.5,
+    "description": "Climb the ancient steps to Shah‑i‑Zinda, the luminous necropolis of Samarkand, where narrow lanes of tile‑draped mausoleums lead you uphill. Immerse yourself in the art of medieval artisans and the majesty of domes amid green sphinx carvings."
+  },
+  {
+    "id": 34,
+    "name": "Siyob (Bazaar) Market & Culinary Walk",
+    "image":"https://visitsilkroad.org/wp-content/uploads/2021/06/Samarkand-Siob-Bazaar-featured_image.jpg",
+    "city": "Samarkand",
+    "category": ["culinary", "local-life", "walk"],
+    "price": 0,
+    "duration_hours": 2,
+    "description": "Wander the busy aisles of Siyob Bazaar, Samarkand’s oldest marketplace, sampling dried apricots, pilaf and fresh flatbread. With a food‑loving guide, you’ll taste Uzbek sweets, chat with spice merchants and uncover hidden café gems off the traditional tourist path."
   }
 ]

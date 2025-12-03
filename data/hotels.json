@@ -2,77 +2,62 @@
     {
         "city":"Samarkand",
         "name":"Sangzor Boutique Hotel",
-        "image":""
+        "image":"https://i.pinimg.com/1200x/d2/c8/0f/d2c80f2e6ec484897b8f3277a0c85836.jpg"
     },
     {
         "city":"Samarkand",
-        "name":"Savitsky Plaza",
-        "image":""
+        "name":"Movenpick",
+        "image":"https://i.pinimg.com/1200x/42/22/6d/42226d4f670fcc7e4893b137863d57a1.jpg"
     },
     {
         "city":"Samarkand",
-        "name":"Hotel Minor",
-        "image":""
+        "name":"Samarkand Regency",
+        "image":"https://i.pinimg.com/736x/1c/f3/69/1cf369a66ac403ee163dc27937848f3e.jpg"
     },
     {
         "city":"Samarkand",
         "name":"Hilton Samarkand Hotel",
-        "image":""
+        "image":"https://i.pinimg.com/736x/49/33/19/4933196304e8e62bf27d8ff943329374.jpg"
     },
     {
         "city":"Samarkand",
         "name":"Silk Road by Minyoun",
-        "image":""
+        "image":"https://i.pinimg.com/736x/cc/c6/ab/ccc6abaff5b5f33f345632ecbdc9eb25.jpg"
     },
     {
         "city":"Tashkent",
         "name":"InterContinental Tashkent",
-        "image":""
+        "image":"https://i.pinimg.com/1200x/99/ba/9e/99ba9e58e68b4e6776318fb1ad2cf3e1.jpg"
     },
     {
         "city":"Tashkent",
-        "name":"Swissotel Tashkent",
-        "image":"Hilton Tashkent"
+        "name":"Hilton Tashkent",
+        "image":"https://i.pinimg.com/1200x/81/4f/89/814f8910f37d8afee0a6d5065aa2ead4.jpg"
     },
     {
         "city":"Tashkent",
-        "name":"Crowne Plaza Tashkent",
-        "image":""
+        "name":"Hotel Uzbekistan",
+        "image":"https://i.pinimg.com/736x/dd/33/86/dd338657842551e5560d245f6c466166.jpg"
     },
     {
         "city":"Tashkent",
-        "name":"Courtyard by Marriott Tashkent",
-        "image":""
-    },
-    {
-        "city":"Tashkent",
-        "name":"Bentley Hotel Tashkent",
-        "image":""
+        "name":"Diamond Tashkent Hotel",
+        "image":"https://i.pinimg.com/1200x/35/67/9a/35679ab970667716220ad5e46314c817.jpg"
     },
     {
         "city":"Bukhara",
         "name":"Mercure Bukhara",
-        "image":""
+        "image":"https://i.pinimg.com/1200x/de/f1/aa/def1aacc3627908090db3c2d9e2399ad.jpg"
     },
     {
         "city":"Bukhara",
-        "name":"Wyndham Bukhara",
-        "image":""
-    },
-    {
-        "city":"Bukhara",
-        "name":"DUSTON",
-        "image":""
-    },
-    {
-        "city":"Bukhara",
-        "name":"Marhaba",
-        "image":""
+        "name":"Poykent",
+        "image":"https://i.pinimg.com/1200x/5c/6f/a0/5c6fa0a3610c7322c32f135775807d26.jpg"
     },
     {
         "city":"Bukhara",
         "name":"AL-HAYAT",
-        "image":""
+        "image":"https://i.pinimg.com/1200x/ab/86/2d/ab862d96b25b003661e5b384160e90be.jpg"
     }
     
 ]

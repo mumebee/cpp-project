@@ -43,11 +43,12 @@ header::before {
   background-position: center;
 }
 .photo2 {
-  height: 128vh;
-  background-image: url("/images/cities.jpg");
-  background-size: cover;
+  height: 150vh;
+  background-image: url("/images/cities.png");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;  
+  margin: 50px 0px;
 }
 @font-face {
   font-family: 'kalam';
@@ -172,9 +173,10 @@ header::before {
 .photo3{
   height: 128vh;
   background-image: url("/images/cities1.jpg");
-  background-size: cover;
+   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center;  */
+   object-fit: cover;
 }
 
 
